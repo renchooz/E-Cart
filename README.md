@@ -73,4 +73,6 @@ The app should be available at http://localhost:5173
 
 ## Screenshots
 - 
+<img width="1920" height="878" alt="Screenshot 2025-11-06 at 17-03-39 E-Commerce" src="https://github.com/user-attachments/assets/d3b2732c-ce9e-4148-98a1-573ece496c79" />
+<img width="1920" height="878" alt="Screenshot 2025-11-06 at 17-03-15 E-Commerce" src="https://github.com/user-attachments/assets/8cdc874a-372b-4174-9393-ec57b7a41a47" />
 
