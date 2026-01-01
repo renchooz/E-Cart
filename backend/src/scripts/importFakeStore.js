@@ -1,4 +1,5 @@
 import 'dotenv/config';
+import fetch from 'node-fetch';
 import { connectToDatabase } from '../lib/db.js';
 import { Product } from '../models/Product.js';
 

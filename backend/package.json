@@ -7,7 +7,6 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-   
     "clear:products": "node -e \"import('dotenv/config');(await import('./src/lib/db.js')).connectToDatabase().then(async()=>{ const { Product } = await import('./src/models/Product.js'); const res = await Product.deleteMany({}); console.log('Deleted products:', res.deletedCount); process.exit(0)}).catch(e=>{ console.error(e); process.exit(1);});\"",
     "seed:fakestore": "node src/scripts/importFakeStore.js"
   },
@@ -16,10 +15,10 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.6.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
   }
 }
-
